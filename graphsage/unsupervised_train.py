@@ -3,7 +3,7 @@ from __future__ import print_function
 
 import os
 import time
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 import numpy as np
 
 from graphsage.models import SampleAndAggregate, SAGEInfo, Node2VecModel
